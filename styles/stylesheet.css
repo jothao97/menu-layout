@@ -87,6 +87,10 @@ img {
     background-color: bisque;
 }
 
+#menu h2 {
+    font-size: 30px;
+}
+
 main {
     background-color: #ad5314;
     text-align: center;
