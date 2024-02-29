@@ -107,8 +107,18 @@ main {
     padding-bottom: 20px;
 }
 
-.grid-container {
+#Appetizers .grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
+    grid-row-gap: 50px;
+    grid-column-gap: 20px;
+}
+
+#Entrees .grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 50px;
+    grid-column-gap: 20px;
 }
